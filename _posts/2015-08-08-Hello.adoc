@@ -1,3 +1,25 @@
 = Hello !
 
-This is a test post from 
+“Writing is hard.”
+
+That’s what experience has conditioned us to believe.
+
+But, we can’t just avoid it, especially in the tech industry. We must write. Even the most brilliant software is useless without good documentation. If the users fail, so does the project.
+
+Unless your UI discoverability is really good, saying “the feature isn’t documented” is the same as saying “the product can’t do it.”
+— Nick Coghlan
+In other words,
+
+Live and die by documentation.
+— Matthew Ginnard
+Then why, oh why, do we make it more difficult by burying the content in XML schemas like DocBook, allowing complex word processors to distract us or wasting time battling with finicky WYSIWYG editors?
+
+Imagine if writing documentation was as simple as writing an email.
+
+It can be.
+
+That’s the idea behind lightweight markup languages such as AsciiDoc. They offer a plain-text syntax, embellished with subtle, yet intuitive markup, that’s designed for humans to read, write and edit in raw form. The natural feel of the syntax keeps you focused on the content. Best of all, the plain text can quickly and easily be translated into output formats such as HTML5 for presentation.
+
+In this introduction to AsciiDoc, we’ll cover what it is, why it’s valuable and what sets it apart from alternatives such as Markdown. You’ll discover that the key to escaping the agony of writing documentation is dropping the angle brackets that are burying the knowledge you have to share.
+
+To learn how to reduce the work of writing and publishing content—​whether it’s notes, documentation, articles, books, web pages or good ol’-fashioned prose—​and attain writing zen, or to simply set the ideas locked in your head free, read on.
