@@ -1,5 +1,7 @@
 = Hello !
 
+image::https://github.com/artekr/artekr.github.io/blob/master/assets/images/avatar.png?raw=true[]
+
 “Writing is hard.”
 
 That’s what experience has conditioned us to believe.
