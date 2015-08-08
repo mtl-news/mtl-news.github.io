@@ -1,7 +1,7 @@
 {
   "meta": {
-    "username": "put your username here",
-    "repositoryName": "put your repository name here",
+    "username": "mtl-news",
+    "repositoryName": "mtl-news.github.io",
     "branch": "master"
   },
   "theme": {
