@@ -18,7 +18,7 @@ Imagine if writing documentation was as simple as writing an email.
 
 It can be.
 
-video:0WWzgGyAH6Y[youtube]
+video::0WWzgGyAH6Y[youtube]
 
 That’s the idea behind lightweight markup languages such as AsciiDoc. They offer a plain-text syntax, embellished with subtle, yet intuitive markup, that’s designed for humans to read, write and edit in raw form. The natural feel of the syntax keeps you focused on the content. Best of all, the plain text can quickly and easily be translated into output formats such as HTML5 for presentation.
 
