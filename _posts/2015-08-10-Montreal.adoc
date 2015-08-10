@@ -4,7 +4,7 @@
 
 在最近公布的全球创业生态圈排名中，蒙特利尔进入了Top20。相比硅谷或者一些其他入榜的地方，蒙特利尔不论是在人才还是投入资金上，都有一定的差距。能有现在的创业生态圈，离不开这边众多创业孵化器的努力。今天，我们来介绍其中两个比较活跃的孵化器：Notman House和District3。这两个也是笔者经常出入的地方。
 
-image::http://www.imtl.org/image/big/DSCN1499.jpg[]
+image::http://www.imtl.org/image/big/DSCN1499.jpg[height="300px" width="600px"]
 
 == Notman House
 
@@ -20,7 +20,7 @@ Notman House并不算是一个孵化器，而是一个给创业公司提供场�
 
 == District3
 
-image::https://scontent-ord1-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/11401500_10152908829082966_3730658014617272947_n.jpg?oh=9e5f1516a9b049e79292b9586eecc718&oe=56452733[]
+image::https://scontent-ord1-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/11401500_10152908829082966_3730658014617272947_n.jpg[height="300px" width="600px"]
 
 District3在Concorida University的FG Building的6楼，工作环境以及氛围比起Notman House有很大的不同。全开放式的办公室，随便几张桌子拼凑一起就可以临时组成一个公司的办公场所。刚进去，你可能看到某个Geek摆弄桌上一堆的电子“仪器”（Ex: Oculus, 3d printer），又或是某个代码帝狂敲键盘写代码（我指的是Vim党或者Emacs党，IDE的鼠标流请无视），又或是某个商科同学的在探讨着ta们新的marketing plan。
 
