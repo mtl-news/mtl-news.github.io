@@ -1,0 +1,24 @@
+= 蒙特利尔的创业孵化器
+:published_at: 2015-08-10
+:hp-tags: StartupCommunity, NotmanHouse, District3
+
+在最近公布的全球创业生态圈排名中，蒙特利尔进入了Top20。相比硅谷或者一些其他入榜的地方，蒙特利尔不论是在人才还是投入资金上，都有一定的差距。能有现在的创业生态圈，离不开这边众多创业孵化器的努力。今天，我们来介绍其中两个比较活跃的孵化器：Notman House和District3。这两个也是笔者经常出入的地方。
+
+image::http://www.imtl.org/image/big/DSCN1499.jpg[]
+
+== Notman House
+
+1800年，Notman House那时还只是个私人住宅，属于一位来自苏格兰的著名摄影师William Notman。现在，由OSMO Foundation拥有，并且整个内部都以简约现代化的装饰进行了重新装修。这儿已经是蒙特利尔整个创业圈的主要中心了。Notman House总共有23个独立办公室用以专门出租给Startup，同时还有一个向公众开放的咖啡厅，以及位于顶层的超大活动室。
+
+Notman House并不算是一个孵化器，而是一个给创业公司提供场地的地方。这儿的初创公司大多是来自于不同的孵化器，有的直接就是自己只是在这儿租了个办公室而已。这些公司大多是有一定客户量或是有一定盈利的或是融资的，员工数基本上是5-10人的规模。在整个蒙特利尔的所有startup community中算是运营最成熟的一个。
+
+蒙特利尔的很多hackathon和tech/entrepreneurship meetup常常会在Notman House举行，这也是笔者常来这儿的原因。下面，我们列举了一些在最近这一周主要的event:
+
+* Ruby社区的montreal.rb聚会
+* StartUp Tech Talks（笔者之前在这见过某大公司的tech lead，这算是个networking的好机会）
+* One Tree Planted Hackathon
+
+
+
+
+
