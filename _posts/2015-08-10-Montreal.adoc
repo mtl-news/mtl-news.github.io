@@ -12,10 +12,10 @@ image::http://www.imtl.org/image/big/DSCN1499.jpg[height="300px" width="600px"]
 
 Notman House并不算是一个孵化器，而是一个给创业公司提供场地的地方。这儿的初创公司大多是来自于不同的孵化器，有的直接就是自己只是在这儿租了个办公室而已。这些公司大多是有一定客户量或是有一定盈利的或是融资的，员工数基本上是5-10人的规模。在整个蒙特利尔的所有startup community中算是运营最成熟的一个。
 
-蒙特利尔的很多hackathon和tech/entrepreneurship meetup常常会在Notman House举行，这也是笔者常来这儿的原因。下面，我们列举了一些在最近这一周主要的event:
+蒙特利尔的很多hackathon和tech/entrepreneurship meetup常常会在Notman House举行，这也是笔者常来这儿的原因。下面，我们列举了一些在最近主要的event(2015/08/10 - 2015/08/16):
 
 * Ruby社区的montreal.rb聚会
-* StartUp Tech Talks（笔者之前在这见过某大公司的tech lead，这算是个networking的好机会）
+* StartUp Tech Talks（笔者之前在这见过某大公司的tech lead，这算是个networking的好机会
 * One Tree Planted Hackathon
 
 == District3
@@ -26,7 +26,7 @@ District3在Concorida University的FG Building的6楼，工作环境以及氛围
 
 这儿很大一部分的成员都是来自Concorida的学生，多数的startup都是由现在的Concorida学生自己创建的。整个District3呈现出一种年轻蓬勃发展的样子，大家有什么idea都大胆的去尝试，在一次次的试错中得以成长。没有人会因为你提一个非常低级的问题而嘲笑你，大家都会给你耐心解答或是愿意充当你的mentor。
 
-同样，District3也有很多Startup Events，这一周的主要活动：
+同样，District3也有很多Startup Events，最近的主要活动(2015/08/10 - 2015/08/16)：
 
 * Swift Workshop（一个颜值爆表的小哥教你iOS开发）
 * Algorithm Time（前google员工教算法题，让你轻松面对FLAG的面试题）
