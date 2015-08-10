@@ -17,7 +17,7 @@ Notman House并不算是一个孵化器，而是一个给创业公司提供场�
 蒙特利尔的很多hackathon和tech/entrepreneurship meetup常常会在Notman House举行，这也是笔者常来这儿的原因。下面，我们列举了一些在最近主要的event(2015/08/10 - 2015/08/16):
 
 * Ruby社区的montreal.rb聚会
-* StartUp Tech Talks（笔者之前在这见过某大公司的tech lead，这算是个networking的好机会
+* StartUp Tech Talks（笔者之前在这见过某大公司的tech lead，这算是个networking的好机会）
 * One Tree Planted Hackathon
 
 == District3
