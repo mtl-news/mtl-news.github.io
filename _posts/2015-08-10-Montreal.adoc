@@ -1,4 +1,4 @@
-= 蒙特利尔的创业孵化器 montreal
+= Montreal的创业孵化器
 :published_at: 2015-08-10
 :hp-tags: StartupCommunity, NotmanHouse, District3
 
