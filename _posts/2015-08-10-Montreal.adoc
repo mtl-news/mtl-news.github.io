@@ -20,7 +20,7 @@ Notman House并不算是一个孵化器，而是一个给创业公司提供场�
 
 == District3
 
-image::http://ca.gew.co/sites/ca.gew.co/files/user-images/d3_logo.png[height="300px" width="800px"]
+image::https://cdn.evbuc.com/images/7548259/70206878929/1/logo.jpg[height="300px" width="600px"]
 
 District3在Concorida University的FG Building的6楼，工作环境以及氛围比起Notman House有很大的不同。全开放式的办公室，随便几张桌子拼凑一起就可以临时组成一个公司的办公场所。刚进去，你可能看到某个Geek摆弄桌上一堆的电子“仪器”（Ex: Oculus, 3d printer），又或是某个代码帝狂敲键盘写代码（我指的是Vim党或者Emacs党，IDE的鼠标流请无视），又或是某个商科同学的在探讨着ta们新的marketing plan。
 
