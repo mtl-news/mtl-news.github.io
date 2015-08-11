@@ -1,7 +1,7 @@
 = MTL-News|谷歌最终也逃不过华尔街的绞杀？
 :hp-alt-title: google alphabet
 :published_at: 2015-08-11
-:hp-tags: StartupCommunity, NotmanHouse, District3
+:hp-tags: Google, Alphabet, Leverage Buyout
 :author: Yucun
 :uri-google-blog: http://googleblog.blogspot.ca/2015/08/google-alphabet.html
 
