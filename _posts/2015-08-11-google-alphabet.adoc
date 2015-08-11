@@ -5,6 +5,8 @@
 :author: Yucun
 :uri-google-blog: http://googleblog.blogspot.ca/2015/08/google-alphabet.html
 
+image::http://cdn.arstechnica.net/wp-content/uploads/2015/08/Screen-Shot-2015-08-10-at-5.02.05-PM-640x410.png[]
+
 昨天谷歌宣布重组成立新的Alphabet母公司，谷歌将成为Alphabet的子公司。受此消息刺激，谷歌股价盘后大涨。Larry Page在 {uri-google-blog}[谷歌官方Blog] 上面提到重组的原因：
 
 ****
