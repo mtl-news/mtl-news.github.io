@@ -10,7 +10,8 @@
 
 Bad reason：想凌驾于公司所有人，拥有整个公司（CEO的日常生活就是不断地向人汇报，公司人人都是你的老板）；认为企业家是glamorous的（日复一日的重复工作，常常在一些问题上面长时间一筹莫展，这才是常态）；觉得这是发挥自己才能，并能获取最大化financial return的方式（那不如直接加入一个有前景的startup等着上市拿钱，要知道facebook的第100位员工挣得钱远远高于硅谷99%的企业家）
 
-原文请戳：https://medium.com/i-m-h-o/good-and-bad-reasons-to-become-an-entrepreneur-decf0766de8d
+原文请戳: https://medium.com/i-m-h-o/good-and-bad-reasons-to-become-an-entrepreneur-decf0766de8d
+
 
 image::https://cdn-images-2.medium.com/max/800/1*3eAm-GaNfltN-X89-6KzqQ.jpeg[height="300px" width="600px"]
 
@@ -19,4 +20,4 @@ image::https://cdn-images-2.medium.com/max/800/1*3eAm-GaNfltN-X89-6KzqQ.jpeg[hei
 
 _长按下图识别二维码，关注我们哦_
 
-image::wechat.jpg[height="300px" width="300px"]
+image::wechat.jpg[height="300px" width="300px"
