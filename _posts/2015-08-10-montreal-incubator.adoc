@@ -1,4 +1,4 @@
-= 蒙特利尔的创业孵化器
+= MTL-News|蒙特利尔的创业孵化器
 :hp-alt-title: montreal incubator
 :published_at: 2015-08-10
 :hp-tags: StartupCommunity, NotmanHouse, District3
