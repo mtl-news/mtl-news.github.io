@@ -20,4 +20,4 @@ image::https://cdn-images-2.medium.com/max/800/1*3eAm-GaNfltN-X89-6KzqQ.jpeg[hei
 
 _长按下图识别二维码，关注我们哦_
 
-image::wechat.jpg[height="300px" width="300px"
+image::wechat.jpg[height="300px" width="300px"]
