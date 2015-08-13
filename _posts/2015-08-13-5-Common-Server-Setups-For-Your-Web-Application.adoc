@@ -1,1 +1,9 @@
-= MTL-News|
+= MTL-News|5 Common Server Setups For Your Web Application
+:hp-alt-title: 5 Common Server Setups For Your Web Application
+:published_at: 2015-08-13
+:hp-tags: Server Setups, digital ocean
+:author: Yucun
+
+Digital Ocean的短文讲述5种常见的server setup: Everything On One Server, Separate Database Server, Load Balancer (Reverse Proxy), HTTP Accelerator (Caching Reverse Proxy), Master-Slave Database Replication.
+
+笔者也就玩到了第二层，后面的还没有尝试过，不知道读者里面有没有玩通关的云架构师。其实，现在的很多cloud service可以简化许多不必要的麻烦，这对于Startup尤其关键。DBaaS，BaaS，PaaS能用就用，可以避免许多不必要的麻烦（Security, Stability, and Resiliency）。当然，你要觉得自己手动配置很酷很hack，我也没有办法。做人不要活得那么辛苦。
