@@ -4,11 +4,11 @@
 :hp-tags: startup idea
 :author: Yucun
 
-好的idea不是空想出来的，而是来源于founder的需求（最好是能够解决founder问题的）。你的idea最好是满足一小部分人的大量需求的。想得到一个好的idea？你需要成为某个发展快速的领域的领头人，这样你才可以*living in the future, then build what’s missing and interesting*。不要担心进入市场太晚，这反而说明你的idea是个好idea。
+好的idea不是空想出来的，而是来源于founder的需求（最好是能够解决founder问题的）。你的idea最好是满足一小部分人的大量需求的。想得到一个好的idea？你需要成为某个发展快速的领域的领头人，这样你才可以：*living in the future, then build what’s missing and interesting*。不要担心进入市场太晚，这反而说明你的idea是个好idea。
 
 对于学生来说："Entrepreneurship"不是从学校里面学来的，just build things，beware of research（phd所做的研究很难成为创业idea）。
 
-需要关闭的idea filter: "Could this be a big company?"，unsexy，schlep（不要因为太难而止步）
+获取idea时，需要关闭的idea filter: "Could this be a big company?"，unsexy，schlep（不要因为太难而止步）
 
 原文请戳: http://www.paulgraham.com/startupideas.html
 
