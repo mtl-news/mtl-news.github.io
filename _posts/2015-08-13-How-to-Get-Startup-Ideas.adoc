@@ -9,3 +9,15 @@
 对于学生来说："Entrepreneurship"不是从学校里面学来的，just build things，beware of research（phd所做的研究很难成为创业idea）。
 
 需要关闭的idea filter: "Could this be a big company?"，unsexy，schlep（不要因为太难而止步）
+
+原文请戳: http://www.paulgraham.com/startupideas.html
+
+image::http://nyobetabeat.files.wordpress.com/2011/05/paul-graham.jpg[height="300px" width="600px"]
+
+如果你喜欢本文章，欢迎推荐到你的朋友圈。更多好文章请关注我们的微信。
+
+*WeChat ID: mtl-news*
+
+_长按下图识别二维码，关注我们哦_
+
+image::wechat.jpg[height="300px" width="300px"]
