@@ -4,7 +4,7 @@
 :hp-tags: mtl news
 :author: Yucun
 
-image::http://media-cdn.tripadvisor.com/media/photo-s/02/64/0c/30/downtown-montreal.jpg[height="300px" width="800px"]
+image::https://c2.staticflickr.com/8/7581/16219577415_c7f3e77a88_k.jpg[height="300px" width="600px"]
 
 MTL-News是一个专注互联网创业的新闻blog。我们的素材以英文文章摘读和点评为主，并附上原文连接，我们也会偶尔写几篇原创文章。文章的来源很广，既有从Techcrunch，Hacker News来的，也有来自个人blog的。原创文章主要是针对蒙特利尔本地的互联网行业，但不限于蒙特利尔。国内的文章不在我们的考虑范围中，因为很多都是翻译自国外的文章，我们鼓励读者直接阅读英文原文。
 
