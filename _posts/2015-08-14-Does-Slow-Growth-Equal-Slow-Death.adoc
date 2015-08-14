@@ -4,4 +4,18 @@
 :hp-tags: business growth
 :author: Yucun
 
+摘读：
+
 慢速的扩张可能会让你的公司最终失去市场。对于pragmatist customers，他们只会支持是market leader的company，所以需要快速的扩张来占有市场。扩张需要承担风险，但如果不承担风险，基本上已经确定你会最终失败了。
+
+原文请戳: http://www.inc.com/magazine/20091101/does-slow-growth-equal-slow-death.html
+
+image::http://www.zillow.com/blog/files/2012/10/Joel-Spolsky-064-e1349995680798.jpg[height="300px" width="600px"]
+
+如果你喜欢本文章，欢迎推荐到你的朋友圈。更多好文章请关注我们的微信。
+
+*WeChat ID: mtl-news*
+
+_长按下图识别二维码，关注我们哦_
+
+image::wechat.jpg[height="300px" width="300px"]
