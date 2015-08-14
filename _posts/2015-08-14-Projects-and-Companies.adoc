@@ -1,0 +1,28 @@
+= MTL-News|Projects and Companies
+:hp-alt-title: Projects and Companies
+:published_at: 2015-08-14
+:hp-tags: projects, companies
+:author: Heng
+
+摘读：
+
+成功的开端并不一定要成立一家公司，如果你手里有好的project，那就继续把它当做project做下去，好的公司常常是从project诞生的（如Twitter, Facebook, Google, Yahoo等）。
+
+image::http://dia.tv/wp-content/uploads/2014/08/Project_logo_02.png[height="300px" width="800px"]
+
+对于project，大家对你expectations都很低，即使失败了也没有人会关心你。另外，更少的资金和人员会给其发展提供更好的flexibility和focus。当然，做project你可以会花很长时间来试验你的idea，很多人可能会以这个为借口偷懒。因此，做project需要你self-discipline to work hard without external pressure。
+
+对于Company，将会有很多其它事情（财务，律师等）去处理，而且通常有很高的expectations。另外，更多的资金和报道将会给公司的发展带来更加负面的影响。最糟糕的一点就是你会放弃一些听起来crazy的ideas，因为这是公司而不是个人爱好。公司期待的是一个合理体面的idea，这往往会 kill the magic ideas。
+
+如果你有project，请记住：
+It’s far better to be thought of - and to think of yourself - as a project than a company for as long as possible.
+
+原文请戳: http://blog.samaltman.com/projects-and-companies 
+
+如果你喜欢本文章，欢迎推荐到你的朋友圈。更多好文章请关注我们的微信。
+
+*WeChat ID: mtl-news*
+
+_长按下图识别二维码，关注我们哦_
+
+image::wechat.jpg[height="300px" width="300px"]
