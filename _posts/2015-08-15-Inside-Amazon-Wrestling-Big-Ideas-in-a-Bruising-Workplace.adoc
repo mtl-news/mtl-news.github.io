@@ -17,3 +17,15 @@ NY times的长文，采访众多Amazon不同部门的前员工，来讲述自己
 * “Aamzon是一个能让大神都觉得自己很糟糕的地方” －－ Noelle Barnes
 * “当你一周不能贡献你的全部来工作80个小时，他们会觉得这是你一个非常大的弱点” －－Molly Jay
 * “在办公室的一个笑话是当你谈到要工作与生活相互平衡时，工作要排在首位，生活其次，最后再去需求你想要的平衡” －－Jason Merkoski 
+
+Ps: 笔者很早就从坊间听说的Amazon的工作强度大，经常都是24hour on-call，很多员工都是一年不到就走了。
+
+原文请戳: http://www.nytimes.com/2015/08/16/technology/inside-amazon-wrestling-big-ideas-in-a-bruising-workplace.html?_r=0
+
+如果你喜欢本文章，欢迎推荐到你的朋友圈。更多好文章请关注我们的微信。
+
+*WeChat ID: mtl-news*
+
+_长按下图识别二维码，关注我们哦_
+
+image::wechat.jpg[height="300px" width="300px"]
