@@ -11,9 +11,9 @@ image::http://static01.nyt.com/images/2015/08/13/business/13amazon-selects-slide
 NY times的长文，采访众多Amazon不同部门的前员工，来讲述自己在Amazon的工作：高压力，员工福利少，信守“leadership principle”...
 
 
-＊ “每一个和我一起工作的人，我几乎都见过他们趴在自己的桌上哭” －－Bo Olson
-＊ “我曾经四天没睡的工作” －－Dina Vaccari
-＊ “我能看到人们真的在消耗自己” －－Liz Pearce
-＊ “Aamzon是一个能让大神都觉得自己很糟糕的地方” －－ Noelle Barnes
-＊ “当你一周不能贡献你的全部来工作80个小时，他们会觉得这是你一个非常大的弱点” －－Molly Jay
-＊ “在办公室的一个笑话是当你谈到要工作与生活相互平衡时，工作要排在首位，生活其次，最后再去需求你想要的平衡” －－Jason Merkoski 
+* “每一个和我一起工作的人，我几乎都见过他们趴在自己的桌上哭” －－Bo Olson
+* “我曾经四天没睡的工作” －－Dina Vaccari
+* “我能看到人们真的在消耗自己” －－Liz Pearce
+* “Aamzon是一个能让大神都觉得自己很糟糕的地方” －－ Noelle Barnes
+* “当你一周不能贡献你的全部来工作80个小时，他们会觉得这是你一个非常大的弱点” －－Molly Jay
+* “在办公室的一个笑话是当你谈到要工作与生活相互平衡时，工作要排在首位，生活其次，最后再去需求你想要的平衡” －－Jason Merkoski 
