@@ -4,3 +4,21 @@
 :hp-tags: growth
 :author: Yucun
 
+image:https://a16zjeff.files.wordpress.com/2012/01/ebay-revenue.jpg[height="300px" width="600px"]
+
+导读：
+
+即便是高速增长的公司，所有的公司几乎都会经历growth rate停滞的时期（作者称之为gravity impact）。marketing，收购其它公司，innovate the product都是可取的growth agenda用来克服gravity impact。
+
+不过，作者认为只有innovations 才是唯一途径。而这，一般是通过layering in new innovations on top of the core business来完成的，比如作者当时在eBay通过把buy-it-now, stores, features, checkout and PayPal integration加入到eBay的core business来维持其高速的增长。
+
+
+原文请戳: http://jeff.a16z.com/2012/01/18/a-recipe-for-growth-adding-layers-to-the-cake/​
+
+如果你喜欢本文章，欢迎推荐到你的朋友圈。更多好文章请关注我们的微信。
+
+*WeChat ID: mtl-news*
+
+_长按下图识别二维码，关注我们哦_
+
+image::wechat.jpg[height="300px" width="300px"]
