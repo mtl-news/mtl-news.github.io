@@ -13,7 +13,7 @@ image:http://tariqmcom.com/wp-content/uploads/2015/06/larger_ppebay-570x398.jpg[
 不过，作者认为只有innovations 才是唯一途径。而这，一般是通过layering in new innovations on top of the core business来完成的，比如作者当时在eBay通过把buy-it-now, stores, features, checkout and PayPal integration加入到eBay的core business来维持其高速的增长。
 
 
-原文请戳: http://jeff.a16z.com/2012/01/18/a-recipe-for-growth-adding-layers-to-the-cake/​
+原文请戳: http://jeff.a16z.com/2012/01/18/a-recipe-for-growth-adding-layers-to-the-cake
 
 如果你喜欢本文章，欢迎推荐到你的朋友圈。更多好文章请关注我们的微信。
 
