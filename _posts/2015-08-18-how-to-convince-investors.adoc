@@ -1,0 +1,25 @@
+= MTL-News|How to convince Investors
+:hp-alt-title: how to convince investors
+:published_at: 2015-08-18
+:hp-tags: investor, founder
+:author: Yucun
+
+
+导读：
+
+怎么让investor觉得你是值得投资的？最重要的就是*formidable founder*。如果你是一个inexerperieced founder想让自己显得formidable，你只要stick to the truth。自己真正的evaluate了自己的startup，并觉得值得invest，然后再去convince investor。convince investors of something so much less speculative，不要用marketing的那一套来忽悠。
+
+没有人知道一个startup是否会成功，所以你只需要让人觉得你的事一个good bet就足够了。除开formidable founder，另外一个因素就是*a promising market*。你需要 identify some specific trend you'll benefit from。最好的情况是，你的idea现在才成为了一个好的idea，because something changed, and no one else has noticed yet。
+
+Investor问你为何没有人投你时，explain why investors have turned you down and why they're mistaken。
+
+
+原文请戳: http://paulgraham.com/convince.html
+
+如果你喜欢本文章，欢迎推荐到你的朋友圈。更多好文章请关注我们的微信。
+
+*WeChat ID: mtl-news*
+
+_长按下图识别二维码，关注我们哦_
+
+image::wechat.jpg[height="300px" width="300px"]
