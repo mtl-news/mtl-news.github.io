@@ -4,9 +4,11 @@
 :hp-tags: Amazon
 :author: Jessyhann
 
-image:http://www.slate.com/content/dam/slate/articles/business/moneybox/2014/10/141014_$BOX_AmazonDefense.jpg.CROP.promo-mediumlarge.jpg [height="300px", width="600px", align="center"]
+:uri-prev: https://mtl-news.github.io/2015/08/15/Inside-Amazon-Wrestling-Big-Ideas-in-a-Bruising-Workplace.html
 
-几天前我们分享了一篇发表在New York Times上，在码农圈引起广泛关注和讨论的Amazon打脸文 _Inside Amazon: Wrestling BigIdeas in a Bruising Workplace_. 文章里面Amazon被描述成不讲人性和个人价值的劳动力压榨机。秉承追根问底原则，笔者第一时间发给几位目前就职Amazon的朋友，想看看内部员工是如何评价这篇文章。这几位员工入职时间在两年左右，全部为软件工程师。
+image:http://www.slate.com/content/dam/slate/articles/business/moneybox/2014/10/141014_$BOX_AmazonDefense.jpg.CROP.promo-mediumlarge.jpg [height="300px" width="600px" role=center]
+
+几天前我们分享了一篇发表在New York Times上，在码农圈引起广泛关注和讨论的Amazon打脸文{uri-prev}[Inside Amazon: Wrestling BigIdeas in a Bruising Workplace]. 文章里面Amazon被描述成不讲人性和个人价值的劳动力压榨机。秉承追根问底原则，笔者第一时间发给几位目前就职Amazon的朋友，想看看内部员工是如何评价这篇文章。这几位员工入职时间在两年左右，全部为软件工程师。
 
 他们的第一反应差不多，“天啦噜这文章写的好夸张啊...”， “这篇报道我觉得蛮严重失实的”。他们说工作环境和强度完全看组的性质和你的Manager，相互之间差别特别大。其中A君所属得AWS组，工作时间 8-10 hours.，也经常会出现工作量达不到计划的情况，但是问题不大。他们每天带着吃喝去轻松愉快地meeting，定期manager 1-1谈话帮你解决眼下的需求；另外一位在bill组，因为和客户支付息息相关，任何服务出了问题他们组都会超级忙，如果再加上on call那连轴转并不稀奇。另外，程序员和PM强度也完全不同。AWS那组的A君的经理工作时间6-7 a.m. 至 4-5 p.m.，回家也仍然随时回邮件和解决线上问题，非常忙。但A君表示他的组是他见过最好的组了（非Amazon内部横向对比）。组里面没有人只说话不做事，相互非常融洽，互相支持，没有出现大牛的强烈鄙视链。甚至manager给他的邮件里面，有任何看法或者意见都是用疑问句。”If they need blah blah, can we do blah blah, and blah blah?”。而他的朋友却在另一个组被manager折磨。
 
