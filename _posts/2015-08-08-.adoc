@@ -1,4 +1,0 @@
-= 蒙特利尔的创业孵化器
-
-image::https://github.com/artekr/artekr.github.io/blob/master/assets/images/avatar.png?raw=true[]
-
