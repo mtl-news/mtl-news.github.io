@@ -1,0 +1,39 @@
+= MTL-News|Why Side Projects Die ?
+:hp-alt-title: Why Side Projects Die
+:published_at: 2015-08-17
+:hp-tags: side prjects, startup
+:author: Heng
+
+
+导读：
+
+现在很多成功的公司都是从不起眼的side project开始的，比如Facebook，Google，Twitter等等。相信大家也都有过各自的side projects，然而，大部分project创建到一半便弃之于坟墓，folders和repos也被遗弃在未完成的梦想中。
+
+事实上，side project常常是something magical，最开始往往让你满腔热血，废寝忘食，甚至*better than sex*。但最终，大多数的side project还是逐渐被放弃。很多人会觉得没有时间，而另一部分会觉得是没有self-discipline。不过，究其最终的原因是: It stopped being fun。你的excitement，你的motivation，都慢慢消失。
+
+image::http://static.tumblr.com/h2p93us/IZjmj5pcj/side-projects.jpg[height="300px" width="600px"]
+
+你可以很明显的感受到它失去乐趣的时刻，当你花了数小时甚至数天来解决一个很愚蠢的问题的时候，你开始怀疑自己，如此简单为什么没想到，可能你不够聪明。你慢慢失去对它的兴趣，因为你孤军奋战。
+
+*They die because they get lonely.*
+
+* When we’re alone, it’s easy to stop making real progress.
+我们总是倾向去优化我们熟悉的小领域，而不愿去解决不熟悉的问题。如果你有听众，小小的鼓励也会激励着你去迎难而上。
+
+* When we’re alone, it’s easy to feel stupid.
+当你花两个小时解决的bug竟然是一个文件的权限问题，你会怀疑自己。如果有朋友，你会发现大家也犯过同样地错误，所以一笑了之。
+
+* When we’re alone, it’s easy to get lost.
+做项目很容易迷失方向，甚至都对项目发展方向毫无头绪。如果有伙伴在旁边稍加提醒，也许你会发现不一样的路径。
+
+总之，当你手上有side project时，千万不要轻易放弃，因为你不是一人在奋战，多结识志同道合的朋友，多交流经验和想法，你的side project可能会更加成功。
+
+原文戳: https://codelympics.io/blog/why-do-side-projects-die
+
+如果你喜欢本文章，欢迎推荐到你的朋友圈。更多好文章请关注我们的微信。
+
+*WeChat ID: mtl-news*
+
+_长按下图识别二维码，关注我们哦_
+
+image::wechat.jpg[height="300px" width="300px"]
