@@ -22,6 +22,7 @@ image:http://www.slate.com/content/dam/slate/articles/business/moneybox/2014/10/
 
 邮件全文：
 
+****
 Dear Amazonians,
  
 If you haven't already, I encourage you to give this (very long) New York Times article a careful read:
@@ -43,7 +44,7 @@ But hopefully, you don't recognize the company described. Hopefully, you’re ha
 Thank you,
  
 Jeff
-
+****
 
 
 如果你喜欢本文章，欢迎推荐到你的朋友圈。更多好文章请关注我们的微信。
