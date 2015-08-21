@@ -1,0 +1,30 @@
+= MTL-News|Here’s Samsung’s Answer To The Apple Watch
+:hp-alt-title: Here’s Samsung’s Answer To The Apple Watch
+:published_at: 2015-08-20
+:hp-tags: Samsung, Gear S2, Apple Watch
+:author: Heng
+
+
+导读：
+
+在上周纽约的发布会上，三星发布了Galaxy Note 5 和 S6 Edge Plus，其中S6 Edge Plus衍生出了新的产品线。另外，在发布会上，三星还透露了即将发布的全新可穿戴设备 - Samsung Gear S2。这款产品完全打破了原来的Samsung Gear S的设计。这款更小更时尚的手表将矛头直指Apple Watch。
+
+三星在上周的发布会上仅仅只泄露了一段视频，并未提及太多细节。这段视频也由三星于昨天发布在了Youtube Channel上。相信在9月初的IFA press conference上带来更多地细节。
+
+video::nwn8qMaNoJk[youtube]
+
+可以看出三星本次采用了原型表盘和金属表带，并优化了大部分的内置程序，而且还内置了心跳检测。
+image:https://tctechcrunch2011.files.wordpress.com/2015/08/vlcsnap-2015-08-19-17h11m57s222.png?w=1024&h=576[]
+总体来说，这款全新设备可以说是另辟蹊径。拥有3G radio的功能可以说是第一代最大的亮点，可以让我们不依赖手机直接拨打电话或者发短信。然而在这款圆形表盘设计的设备上用缩小的键盘打字可能会降低用户体验。
+
+另外，系统设计上，Gear S2采用了圆形图标设计。Apple并未给它的圆形图标申请专利，所以三星这次跟随Apple Watch采用圆形图标设计也不知道打的什么算盘。
+
+原文戳: http://techcrunch.com/2015/08/19/heres-samsungs-answer-to-the-apple-watch/#.qcesdq:PZCW
+
+如果你喜欢本文章，欢迎推荐到你的朋友圈。更多好文章请关注我们的微信。
+
+*WeChat ID: mtl-news*
+
+_长按下图识别二维码，关注我们哦_
+
+image::wechat.jpg[height="300px" width="300px"]
