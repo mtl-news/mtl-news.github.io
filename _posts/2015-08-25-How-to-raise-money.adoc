@@ -1,0 +1,54 @@
+= MTL-News|How to raise money
+:hp-alt-title: How to raise money
+:published_at: 2015-08-25
+:hp-tags: Fundraising
+:author: Yucun
+
+Startup融资一般有三个阶段：
+
+* *Phase 1*: get started with a few tens of thousands from something like Y Combinator or individual angels
+* *Phase 2*: raise a few hundred thousand to a few million to build the company
+* *Phase 3*: once the company is clearly succeeding, raise one or more later rounds to accelerate growth
+
+这篇文章Paul Graham建议founder在Phase2的时候：
+
+****
+Avoid investors till you decide to raise money, and then when you do, talk to them all in parallel, prioritized by expected value, and accept offers greedily. 
+****
+
+对于上述的建议，Paul Graham对每一个细节都进行了详细的描述：
+
+* *Force* (You wouldn't need a rule to keep you going in one direction if there weren't powerful forces pushing you in another)
+* *Don't raise money unless you want it and it wants you*
+* *Be in fundraising mode or not*
+* *Get introductions to investors*
+* *Hear no till you hear yes* (Treat investors as saying no till they unequivocally say yes)
+* *Do breadth-first search weighted by expected value*
+* *Know where you stand*
+* *Get the first commitment*
+* *Close committed money*
+* *Avoid investors who don't "lead"* (the expected value of an investor who won't "lead" is zero)
+* *Have multiple plans* (Different plans match different investors)
+* *Underestimate how much you want*
+* *Be profitable if you can*
+* *Don't optimize for valuation*
+* *Yes/no before valuation* (告诉investor自己并没有仔细思考valuation，现在只是想找个investor partner)
+* *Beware "valuation sensitive" investors*
+* *Accept offers greedily*
+* *Don't sell more than 25% in phase 2*
+* *Have one person handle fundraising* (就是CEO)
+* *You'll need an executive summary and (maybe) a deck*
+* *Stop fundraising when it stops working* (Don't keep sucking on the straw if you're just getting air)
+* *Don't raise too much* (融资越多，下一轮融资压力越大)
+* *Be nice* (never to seem arrogant at all)
+* *The bar will be higher next time*
+* *Don't make things complicated*
+
+
+如果你喜欢本文章，欢迎推荐到你的朋友圈。更多好文章请关注我们的微信。
+
+*WeChat ID: mtl-news*
+
+_长按下图识别二维码，关注我们哦_
+
+image::wechat.jpg[height="300px" width="300px"]
