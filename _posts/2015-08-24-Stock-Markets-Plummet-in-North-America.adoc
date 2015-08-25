@@ -1,5 +1,8 @@
 = MTL|Facebook Down 12.1%, Apple Down 10%, Google Down 6.5% As Stock Markets Plummet
-
+:hp-alt-title: Stock Markets Plummet in North America
+:published_at: 2015-08-24
+:hp-tags: Tech company, TechCrunch, Facebook, Apple, Stock Market
+:author: Heng
 
 
 2015年8月24号可能是这段时间让各个科技公司最为头疼的一个星期一了。
