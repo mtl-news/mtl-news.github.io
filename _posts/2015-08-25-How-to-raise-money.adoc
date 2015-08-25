@@ -4,6 +4,10 @@
 :hp-tags: Fundraising
 :author: Yucun
 
+image:http://nyobetabeat.files.wordpress.com/2011/05/paul-graham.jpg[height="300px" width="600px"]
+
+摘读：
+
 Startup融资一般有三个阶段：
 
 * *Phase 1*: get started with a few tens of thousands from something like Y Combinator or individual angels
