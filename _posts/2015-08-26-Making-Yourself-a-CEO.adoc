@@ -24,3 +24,6 @@ The basic idea is that people open up to feedback far more if you start by compl
 * Don’t get personal
 * Don’t clown people in front of their peers
 * Feedback is not one size fits all
+* Be direct, but not mean
+
+Feedback是dialogue，不是monologue。而且，你需要high frequency feedback，因而你应该对每个forecast，product plan，presentation，comment都有自己的看法。
