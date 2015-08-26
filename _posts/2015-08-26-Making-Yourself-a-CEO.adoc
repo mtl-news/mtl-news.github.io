@@ -1,0 +1,26 @@
+= MTL-News|Making Yourself a CEO
+:hp-alt-title: Making Yourself a CEO
+:published_at: 2015-08-26
+:hp-tags: Management, Feedback, The Sick Sandwich
+:author: Yucun
+
+image:http://www.ryseconnected.com/wp-content/uploads/2015/05/ben-horowitz.jpg[height="300px" width="600px"]
+
+摘读：
+
+*The key to reaching the advanced level and feeling like you were born to be CEO is mastering the unnatural.*
+
+作为一个CEO需要许多的unnatural motion，为了长久的利益，你必须作出这些可能upset people的unnatural motion。Giving feedback在平常的生活中，会显得bizarre，不过这是*unnatural atomic building block atop which the unnatural skill set of management gets built*
+
+一个对于初学者有效的feedback方法--*The shit sandwich*:
+****
+The basic idea is that people open up to feedback far more if you start by complimenting them (slice of bread #1), then you give them the difficult message (the shit), then wrap up by reminding them how much you value their strengths (slice of bread #2)
+****
+
+不过The shit sandwhich并非有效，而且可能会带来一些负面效果，因而我们需要采取一些灵活的方法来giving feedback:
+
+* Be authentic
+* Come from the right place
+* Don’t get personal
+* Don’t clown people in front of their peers
+* Feedback is not one size fits all
