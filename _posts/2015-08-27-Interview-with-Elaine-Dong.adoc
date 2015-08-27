@@ -8,6 +8,7 @@ image:https://www.mitacs.ca/sites/default/files/styles/large/public/elaine_conco
 
 在即将结束的暑假，大家都有什么故事来分享给我们呢？我们专程采访了Elaine，她给我们分享了这个暑假在Concordia University参与Mitacs Globalink Research Intern的故事。
 
+
 == 关于Mitacs
 Elaine参加的Mitacs Globalink是Mitacs（加拿大信息技术与综合系统数学组织）的一个项目，旨在培养来自全球各地的精英学生。Mitacs可以提供大学生与国内外知名教授会面的机会，从而丰富大学阶段的学习体验。
 
