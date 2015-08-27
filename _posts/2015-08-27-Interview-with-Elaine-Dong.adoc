@@ -4,12 +4,33 @@
 :hp-tags: Mitacs
 :author: Yucun
 
-image:http://www.ryseconnected.com/wp-content/uploads/2015/05/ben-horowitz.jpg[height="300px" width="600px"]
+image:https://www.mitacs.ca/sites/default/files/styles/large/public/elaine_concordia_1b.jpg[height="300px" width="600px"]
+
+在即将结束的暑假，大家都有什么故事来分享给我们呢？我们专程采访了Elaine，她给我们分享了这个暑假在Concordia University参与Mitacs Globalink Research Intern的故事。
+
+== 关于Mitacs
+Elaine参加的Mitacs Globalink是Mitacs（加拿大信息技术与综合系统数学组织）的一个项目，旨在培养来自全球各地的精英学生。Mitacs可以提供大学生与国内外知名教授会面的机会，从而丰富大学阶段的学习体验。
+
+据Elaine回忆，当时申请Mitacs的时候并没有抱太大希望被录取，因为准备材料和申请都非常仓促，所以只是抱着试一试的想法申请了。为了参加Mitacs项目，Elaine因为考试排期问题还不得不延考4门课的期末考试。
+
+== Research
+Elaine的“老板”是Concordia教授Ali Akgunduz，主要从事的研究方向是Revenue Management of Airline operations and Maintenance和Virtual Reality in Design and Manufacturing。Elaine研究的是*Fuel Efficient Air Traffic Management*，用于优化飞机路线从而飞机节省燃油消耗。
+
+Elaine给我们详细介绍了下她的研究，但是我们表示并没有听得太懂。Elaine解释的时候还特意拿了些模型的约束条件给我们看，希望我们可以更好的理解她所做的研究。然而，那些数学公式我们一致表示有点眼熟，但也就眼熟而已。
+
+按照一般的研究方法来优化飞机路线，通常会设置四组约束条件：safety，route，time，speed。Elaine的模型主要专注在*Collision Avoidance*和*Fuel cost*上，同时还希望把时间离散化，进而得以取得较好的飞机路线优化方案。Elaine在这个暑假为了研究，刷了非常多的论文，而且还发现了她导师所提出来的一个solution的潜在问题。因此，Elaine的“老板”还想留住Elaine继续跟进这个研究项目。
+
+在这里感叹一句：学霸间的故事总是惊人的相似。
+
+== Life in Montreal
+蒙特利尔的夏天自然是丰富多彩的，对于任何一个人来说都有难以抵挡的诱惑。当然，对于我们的学霸Elaine来说也是一样的。在蒙特利尔的这段时间，Elaine也是几乎没有错过任何一个精彩的活动，从crescent street grand prix of canada festival到international jazz festival。Elaine给我们说，在这边自己的生活节奏也都给带得完全不同了，平时12点前肯定睡觉的，也会开始拖到1-2点才睡。刚来的时候，第一天去lab实习，9点到实验室一个人都没有，直到11点才陆续有人来实验室，也让她感受到了浓厚“晚起晚睡“的生活气氛。
+
+Elaine给我们说自己被蒙特利尔这边的氛围深深的迷住了，希望明年毕业后继续来蒙特利尔读研究生。我们也在此祝愿Elaine明年进入她心仪的学校。
 
 
 
 
-如果你喜欢本文章，欢迎推荐到你的朋友圈。更多好文章请关注我们的微信。
+_如果你喜欢本文章，欢迎推荐到你的朋友圈。更多好文章请关注我们的微信。_
 
 *WeChat ID: mtl-news*
 
