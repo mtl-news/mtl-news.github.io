@@ -15,7 +15,7 @@ Elaine参加的Mitacs Globalink是Mitacs（加拿大信息技术与综合系统�
 据Elaine回忆，当时申请Mitacs的时候并没有抱太大希望被录取，因为准备材料和申请都非常仓促，所以只是抱着试一试的想法申请了。为了参加Mitacs项目，Elaine因为考试排期问题还不得不延考4门课的期末考试。
 
 == Research
-Elaine的“老板”是Concordia教授Ali Akgunduz，主要从事的研究方向是Revenue Management of Airline operations and Maintenance和Virtual Reality in Design and Manufacturing。Elaine研究的是*Fuel Efficient Air Traffic Management*，用于优化飞机路线从而飞机节省燃油消耗。
+Elaine的“老板”是Concordia教授Ali Akgunduz，主要从事的研究方向是Revenue Management of Airline operations and Maintenance和Virtual Reality in Design and Manufacturing。Elaine研究的是*Fuel Efficient Air Traffic Management*，用于优化飞行路线从而节省燃油消耗。
 
 Elaine给我们详细介绍了下她的研究，但是我们表示并没有听得太懂。Elaine解释的时候还特意拿了些模型的约束条件给我们看，希望我们可以更好的理解她所做的研究。然而，那些数学公式我们一致表示有点眼熟，但也就眼熟而已。
 
