@@ -1,0 +1,29 @@
+= MTL-News|Million Dollar Products
+:hp-alt-title: Million Dollar Products
+:published_at: 2015-09-01
+:hp-tags: Family Business, Product
+:author: Yucun
+
+image:http://assets.warpspire.com/images/site/dubious-kyle.jpg[height="300px" width="600px"]
+
+导读：
+
+现在动辄估值数十亿美元的Unicorn真的就对我们互联网行业发展好吗？类似于family business的方式会不会是一种比较好的互联网公司的发展方向？（这里主要应该是对hobby programmer来说，而非整个互联网行业的公司。）
+
+这里的family business，指的是5-6人的小团队，没有管理和交流上面的overhead。
+
+这个小团队的好处：treat their customers much better than traditional growth-focused businesses；对于employee来说，他们能真正的make money和全心投入公司；对于公司来说，也容易改变发展方向；不要太多的customer就能挣钱，从而可以更加专注于产品上。
+
+作者认为并不是所有的产品都需要成为Unicorn。
+
+
+原文请戳： http://warpspire.com/posts/million-dollar-products/
+
+
+如果你喜欢本文章，欢迎推荐到你的朋友圈。更多好文章请关注我们的微信。
+
+*WeChat ID: mtl-news*
+
+_长按下图识别二维码，关注我们哦_
+
+image::wechat.jpg[height="300px" width="300px"]
