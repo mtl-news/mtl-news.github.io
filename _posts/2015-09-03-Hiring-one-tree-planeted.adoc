@@ -1,0 +1,30 @@
+= MTL-News|One Tree Planeted实习生招聘
+:hp-alt-title: Hiring one tree planeted
+:published_at: 2015-09-03
+:hp-tags: Hiring
+:author: Yucun
+
+image:https://cdn.shopify.com/s/files/1/0326/7189/files/one-dollar-one-tree-box.jpg[height="300px" width="600px"]
+
+OneTreePlanted是一家刚成立的P2P（peer to peer）慈善捐助平台，专门为reforestation的组织或者个人募集资金。正如宣传标语所说的：one dollar，one tree。前天，我们和他们公司整个team见面，了解到了一些公司的内部情况和招聘职位。
+
+目前，OneTreePlanted总共6个人，没有开发人员，都是marketing，finance专业的。公司的CEO Matt Hill是mcgill大学的marketing老师，现在还继续在mcgill教课。因此公司大多数员工都是Matt之前的学生。Matt给我介绍的position主要是developer，具体的工作包括：
+
+* 整合stripe支付模块到现在的网站上
+* 基于现有的api来提供简单的guide给网站维护人员
+
+这个position是non－paid的，因为暂时公司还没有足够的融资。工作时间，地点都可以非常flexible，公司办公的地方在Notman House（不知道的同学快快翻看我们之前的文章 https://mtl-news.github.io/2015/08/10/montreal-incubator.html[蒙特利尔的创业孵化器]）。
+
+虽然是non－paid的工作，这份实习给你带的connection和experience远远胜过做一些small project的收入。而且之后公司拿到融资的话，会直接提供paid position给你。
+
+有想法申请的同学可以加我们下面的微信号（我们用的不是公众号）来咨询，或者直接发送你们的简历到：mtl.news.tech@gmail.com
+
+公司链接： http://onetreeplanted.org/
+
+如果你喜欢本文章，欢迎推荐到你的朋友圈。更多好文章请关注我们的微信。
+
+*WeChat ID: mtl-news*
+
+_长按下图识别二维码，关注我们哦_
+
+image::wechat.jpg[height="300px" width="300px"]
