@@ -1,0 +1,158 @@
+= MTL-News|解析Parse SDK: Part 1
+:hp-alt-title: Analyze Parse SDK Part 1
+:published_at: 2015-09-04
+:hp-tags: Parse SDK, Bolts Framework
+:author: Yucun
+
+Parse作为一个Mobile Backend As A Service，2013年被Facebook收购（YC S11）。前些天，Parse宣布开源其后端SDK（ https://github.com/ParsePlatform/[Parse Platform]）。作为，Parse的长期忠实用户，笔者迫不及待的跑去狂刷代码了。
+
+image:http://blog.parse.com/wp-content/uploads/2015/08/new-sdk-diagram.jpg[height="300px" width="600px"]
+
+对于不熟悉Parse的读者，我先简单的介绍一下。Parse为开发者包办了后台服务，从任意数据保存到发送推送通知，以及Facebook/Twitter 帐号登陆，几乎囊括一个App所需要的大多数后台服务。所以，你用Parse来开发你的Android/iOS App，一般能节省你10-100倍的时间。
+
+图中的一个ParseObject对应在Parse Cloud上的一个Table里面的一个record，按照documentation里面的说法就是：
+
+****
+The ParseObject is a local representation of data that can be saved and retrieved from the Parse cloud.
+
+The basic workflow for creating new data is to construct a new ParseObject, use ParseObject.put(String, Object) to fill it with data, and then use ParseObject.saveInBackground() to persist to the cloud. 
+
+The basic workflow for accessing existing data is to use a ParseQuery to specify which existing data to retrieve.
+****
+
+ParseObject和Parse Cloud通过Controller来进行交互，Controller可以serialize和deserialize ParseObject的状态成Parse的public REST format，并能把所有的请求传到Parse的内部呢tworking logic。
+
+本篇文章主要是分析其client端的SDK，也就是上图中除开Parse Cloud的那一部分。你要问我Parse Cloud怎么搭建起来，我也不知道。
+
+== BoltsFramework
+我们不得不提到去年Parse开源的BoltsFramework，Parse的Android和iOS SDK都用Bolts来处理异步请求。Bolts的第一个Component就是Task，它可以让复杂的异步代码更好管理。熟悉Javascript的读者，应该知道JavaScript Promises。Task就好比Promise，下面的代码可以给读者带来比较直观的感受:
+
+[source, objective-c]
+[[object saveAsync:obj] continueWithBlock:^id(BFTask *task) {
+  if (task.isCancelled) {
+    // the save was cancelled.
+  } else if (task.error) {
+    // the save failed.
+  } else {
+    // the object was saved successfully.
+    SaveResult *saveResult = task.result;
+  }
+  return nil;
+}];
+
+[source,java]
+object.saveAsync().continueWith(new Continuation<ParseObject, Void>() {
+  public Void then(Task task) throws Exception {
+    if (task.isCancelled()) {
+      // the save was cancelled.
+    } else if (task.isFaulted()) {
+      // the save failed.
+      Exception error = task.getError();
+    } else {
+      // the object was saved successfully.
+      SaveResult saveResult = task.getResult();
+    }
+    return null;
+  }
+});
+
+一个Task表示一个asynchronous操作。一般来说，一个Task来自于一个asynchronous function，并且让你可以继续处理Task的执行结果。通过Bolts来创建Task非常简单：
+[source,java]
+public Task<String> succeedAsync() {
+  // Java Generics syntax can be confusing sometimes. :)
+  // This creates a TCS for a Task<String>.
+  Task<String>.TaskCompletionSource successful = Task.create();
+  successful.setResult("The good result.");
+  return successful.getTask();
+}
+
+创建完Task后，我们的Task有一个方法onSuccess来指定一个Continuation。当Task成功执行完，抛出异常，或被取消了，我们的Task会运行执行这个Continuation。Continuation 是一个接口，只有一个当task执行完后会被调用的then方法（这里还有一个onSuccessTask方法，这个方法会调用continueWithTask方法创建一个新的asynchronous task）。
+[source,java]
+succeedAsync().onSuccess(new Continuation<ParseObject, Void>() {
+  public Void then(Task<ParseObject> task) throws Exception {
+    // the object was saved successfully.
+    return null;
+  }
+});
+
+== Parse-SDK-Android
+在对Bolts有个基本的了解后，我们来分析下Parse-SDK-Android。对于一个ParseObject来说，常见的操作就是fetchInBackground()，即：在后台线程中，从server获取这个ParseObject的数据。
+[source,java]
+public final <T extends ParseObject> void fetchInBackground(GetCallback<T> callback) {
+    ParseTaskUtils.callbackOnMainThreadAsync(this.<T>fetchInBackground(), callback);
+}
+
+[source,java]
+public final <T extends ParseObject> Task<T> fetchInBackground() {
+    return ParseUser.getCurrentSessionTokenAsync().onSuccessTask(new Continuation<String, Task<T>>() {
+      @Override
+      public Task<T> then(Task<String> task) throws Exception {
+        final String sessionToken = task.getResult();
+        return taskQueue.enqueue(new Continuation<Void, Task<T>>() {
+          @Override
+          public Task<T> then(Task<Void> toAwait) throws Exception {
+            return fetchAsync(sessionToken, toAwait);
+          }
+        });
+      }
+    });
+}
+
+一般我们会调用ParseObject的fetchInBackground(GetCallback<T> callback)方法，在这里创建一个Callback出来用以处理从Cloud接收到的数据。很多时候，我们可能会要在这个Callback里面更新UI，或者再去调用其它的网络请求。因此，这样会常常带来许多不必要的麻烦，以及潜在的Bug。后面我们会介绍如何处理这些callback hell或者切换线程的方法，请持续关注哦。
+
+这里ParseTaskUtils的方法callbackOnMainThreadAsync通过Task来“包装”Callback中获取到的请求结果，因而这样的Task可以继续链接后续的Task。
+[source,java]
+static Task<Void> callbackOnMainThreadAsync(Task<Void> task, final ParseCallback1<ParseException> callback) {
+    return callbackOnMainThreadAsync(task, callback, false);
+}
+
+[source,java]
+static <T> Task<T> callbackOnMainThreadAsync(Task<T> task, final ParseCallback2<T, ParseException> callback, final boolean reportCancellation) {
+    if (callback == null) {
+      return task;
+    }
+    final Task<T>.TaskCompletionSource tcs = Task.create();
+    task.continueWith(new Continuation<T, Void>() {
+      @Override
+      public Void then(final Task<T> task) throws Exception {
+        if (task.isCancelled() && !reportCancellation) {
+          tcs.setCancelled();
+          return null;
+        }
+//回到ui thread来执行
+        ParseExecutors.main().execute(new Runnable() {
+          @Override
+          public void run() {
+            try {
+              Exception error = task.getError();
+              if (error != null && !(error instanceof ParseException)) {
+                error = new ParseException(error);
+              }
+              callback.done(task.getResult(), (ParseException) error);
+            } finally {
+              if (task.isCancelled()) {
+                tcs.setCancelled();
+              } else if (task.isFaulted()) {
+                tcs.setError(task.getError());
+              } else {
+                tcs.setResult(task.getResult());
+              }
+            }
+          }
+        });
+        return null;
+      }
+    });
+    return tcs.getTask();
+}
+
+下一篇我们会介绍一个fetchInBackground方法的调用是如何涉及到一个网络请求的,继续关注哦。
+
+
+如果你喜欢本文章，欢迎推荐到你的朋友圈。更多好文章请关注我们的微信。
+
+*WeChat ID: mtl-news*
+
+_长按下图识别二维码，关注我们哦_
+
+image::wechat.jpg[height="300px" width="300px"]
