@@ -8,7 +8,7 @@ image:https://cdn.shopify.com/s/files/1/0326/7189/files/one-dollar-one-tree-box.
 
 OneTreePlanted是一家刚成立的P2P（peer to peer）慈善捐助平台，专门为reforestation的组织或者个人募集资金。正如宣传标语所说的：one dollar，one tree。前天，我们和他们公司整个team见面，了解到了一些公司的内部情况和招聘职位。
 
-目前，OneTreePlanted总共6个人，没有开发人员，都是marketing，finance专业的。公司的CEO Matt Hill是mcgill大学的marketing老师，现在还继续在mcgill教课。因此公司大多数员工都是Matt之前的学生。Matt给我介绍的position主要是developer，具体的工作包括：
+目前，OneTreePlanted总共6个人，没有开发人员，都是marketing或finance背景的。公司的CEO Matt Hill是Mcgill大学的研究marketing老师，现在还继续在Mcgill教课。因此公司大多数员工都是Matt之前的学生。Matt给我介绍的position主要是developer，具体的工作包括：
 
 * 整合stripe支付模块到现在的网站上
 * 基于现有的api来提供简单的guide给网站维护人员
