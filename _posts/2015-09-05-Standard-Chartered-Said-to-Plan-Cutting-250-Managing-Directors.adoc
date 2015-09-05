@@ -4,7 +4,7 @@
 :hp-tags: Standard Chartered
 :author: Yucun
 
-image:https://www.investrealprojects.com/wp-content/uploads/2015/06/StandardChartered-logo2.jpg[height="300px" width="600px"]
+image:http://i.telegraph.co.uk/multimedia/archive/02302/standardsummary_2302283k.jpg[height="300px" width="600px"]
 
 由于业绩下滑，渣打计划大规模裁员。The British lender计划裁掉250个MD，现在全球越有1000个MD。其中，有50个是会从中东和北美部门削减。渣打估计最早会从这个月开始裁员。
 
