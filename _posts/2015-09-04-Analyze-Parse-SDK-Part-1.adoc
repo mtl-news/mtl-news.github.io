@@ -4,7 +4,7 @@
 :hp-tags: Parse SDK, Bolts Framework
 :author: Yucun
 
-Parse作为一个Mobile Backend As A Service，2013年被Facebook收购（YC S11）。前些天，Parse宣布开源其后端SDK（ https://github.com/ParsePlatform/[Parse Platform]）。作为，Parse的长期忠实用户，笔者迫不及待的跑去狂刷代码了。
+Parse作为一个Mobile Backend As A Service，2013年被Facebook收购（YC S11）。前些天，Parse宣布开源其后端SDK（ https://github.com/ParsePlatform/[Parse Platform]）。笔者作为Parse的长期忠实用户，迫不及待的跑去狂刷代码了。
 
 image:http://blog.parse.com/wp-content/uploads/2015/08/new-sdk-diagram.jpg[height="300px" width="600px"]
 
@@ -146,7 +146,7 @@ static <T> Task<T> callbackOnMainThreadAsync(Task<T> task, final ParseCallback2<
     return tcs.getTask();
 }
 
-下一篇我们会介绍一个fetchInBackground方法的调用是如何涉及到一个网络请求的,继续关注哦。
+在这里挖一个坑，下一篇我们会介绍一个fetchInBackground方法的调用是如何涉及到一个网络请求的,请继续关注哦。
 
 
 如果你喜欢本文章，欢迎推荐到你的朋友圈。更多好文章请关注我们的微信。
