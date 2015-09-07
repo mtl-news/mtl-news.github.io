@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>MTL-News|解析Parse SDK: Part 1</title>
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="//mtl-news.github.io/themes/Casper/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="//mtl-news.github.io/themes/Casper/assets/css/screen.css?v=1.0.0" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+
+    <link rel="canonical" href="https://mtl-news.github.io/2015/09/04/Analyze-Parse-SDK-Part-1.html" />
+    
+    <meta property="og:site_name" content="mtl-news" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="MTL-News|解析Parse SDK: Part 1" />
+    <meta property="og:description" content="Parse作为一个Mobile Backend As A Service，2013年被Facebook收购（YC S11）。前些天，Parse宣布开源其后端SDK（ Parse Platform）。笔者作为Parse的长期忠实用户，迫不及待的跑去狂刷代码了。 对于不熟悉Parse的读者，我先简单的介绍一下。Parse为开发者包办了后台服务，从任意数据保存到发送推送通知，以及Facebook/Twitter 帐号登陆，几乎囊括一个App所需要的大多数后台服务。所以，你用Parse来开发你的Android/iOS App，一般能节省你10-100倍的时间。..." />
+    <meta property="og:url" content="https://mtl-news.github.io/2015/09/04/Analyze-Parse-SDK-Part-1.html" />
+    <meta property="article:published_time" content="2015-09-04T04:00:00.000Z" />
+    <meta property="article:modified_time" content="2015-09-07T04:25:33.765Z" />
+    <meta property="article:tag" content="Parse SDK" />
+    <meta property="article:tag" content="Bolts Framework" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="MTL-News|解析Parse SDK: Part 1" />
+    <meta name="twitter:description" content="Parse作为一个Mobile Backend As A Service，2013年被Facebook收购（YC S11）。前些天，Parse宣布开源其后端SDK（ Parse Platform）。笔者作为Parse的长期忠实用户，迫不及待的跑去狂刷代码了。 对于不熟悉Parse的读者，我先简单的介绍一下。Parse为开发者包办了后台服务，从任意数据保存到发送推送通知，以及Facebook/Twitter 帐号登陆，几乎囊括一个App所需要的大多数后台服务。所以，你用Parse来开发你的Android/iOS App，一般能节省你10-100倍的时间。..." />
+    <meta name="twitter:url" content="https://mtl-news.github.io/2015/09/04/Analyze-Parse-SDK-Part-1.html" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "mtl-news",
+    "author": {
+        "@type": "Person",
+        "name": "Yucun",
+        "image": "https://avatars.githubusercontent.com/u/4750970?v=3",
+        "url": "undefined/author/undefined",
+        "sameAs": null
+    },
+    "headline": "MTL-News|解析Parse SDK: Part 1",
+    "url": "https://mtl-news.github.io/2015/09/04/Analyze-Parse-SDK-Part-1.html",
+    "datePublished": "2015-09-04T04:00:00.000Z",
+    "dateModified": "2015-09-07T04:25:33.765Z",
+    "keywords": "Parse SDK,  Bolts Framework",
+    "description": "Parse作为一个Mobile Backend As A Service，2013年被Facebook收购（YC S11）。前些天，Parse宣布开源其后端SDK（ Parse Platform）。笔者作为Parse的长期忠实用户，迫不及待的跑去狂刷代码了。 对于不熟悉Parse的读者，我先简单的介绍一下。Parse为开发者包办了后台服务，从任意数据保存到发送推送通知，以及Facebook/Twitter 帐号登陆，几乎囊括一个App所需要的大多数后台服务。所以，你用Parse来开发你的Android/iOS App，一般能节省你10-100倍的时间。..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost ?" />
+    <link rel="alternate" type="application/rss+xml" title="mtl-news" href="https://mtl-news.github.io/rss" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+</head>
+<body class="post-template tag-Parse-SDK tag-Bolts-Framework">
+
+    
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        <a class="back-button icon-arrow-left" href="https://mtl-news.github.io">Home</a>
+        <!-- <a class="subscribe-button icon-feed" href="https://mtl-news.github.io/rss/">Subscribe</a> -->
+    </nav>
+</header>
+
+<main class="content" role="main">
+
+    <article class="post tag-Parse-SDK tag-Bolts-Framework">
+
+        <header class="post-header">
+            <h1 class="post-title">MTL-News|解析Parse SDK: Part 1</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-09-04">04 September 2015</time>  on <a href="https://mtl-news.github.io/tag/Parse-SDK">Parse SDK</a>, <a href="https://mtl-news.github.io/tag/Bolts-Framework"> Bolts Framework</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Parse作为一个Mobile Backend As A Service，2013年被Facebook收购（YC S11）。前些天，Parse宣布开源其后端SDK（ <a href="https://github.com/ParsePlatform/">Parse Platform</a>）。笔者作为Parse的长期忠实用户，迫不及待的跑去狂刷代码了。</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="http://blog.parse.com/wp-content/uploads/2015/08/new-sdk-diagram.jpg" alt="new-sdk-diagram.jpg" width="600px" height="300px"></span></p>
+</div>
+<div class="paragraph">
+<p>对于不熟悉Parse的读者，我先简单的介绍一下。Parse为开发者包办了后台服务，从任意数据保存到发送推送通知，以及Facebook/Twitter 帐号登陆，几乎囊括一个App所需要的大多数后台服务。所以，你用Parse来开发你的Android/iOS App，一般能节省你10-100倍的时间。</p>
+</div>
+<div class="paragraph">
+<p>图中的一个ParseObject对应在Parse Cloud上的一个Table里面的一个record，按照documentation里面的说法就是：</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p>The ParseObject is a local representation of data that can be saved and retrieved from the Parse cloud.</p>
+</div>
+<div class="paragraph">
+<p>The basic workflow for creating new data is to construct a new ParseObject, use ParseObject.put(String, Object) to fill it with data, and then use ParseObject.saveInBackground() to persist to the cloud.</p>
+</div>
+<div class="paragraph">
+<p>The basic workflow for accessing existing data is to use a ParseQuery to specify which existing data to retrieve.</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>ParseObject和Parse Cloud通过Controller来进行交互，Controller可以serialize和deserialize ParseObject的状态成Parse的public REST format，并能把所有的请求传到Parse的内部呢tworking logic。</p>
+</div>
+<div class="paragraph">
+<p>本篇文章主要是分析其client端的SDK，也就是上图中除开Parse Cloud的那一部分。你要问我Parse Cloud怎么搭建起来，我也不知道。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_boltsframework">BoltsFramework</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>我们不得不提到去年Parse开源的BoltsFramework，Parse的Android和iOS SDK都用Bolts来处理异步请求。Bolts的第一个Component就是Task，它可以让复杂的异步代码更好管理。熟悉Javascript的读者，应该知道JavaScript Promises。Task就好比Promise，下面的代码可以给读者带来比较直观的感受:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-objective-c" data-lang="objective-c">[[object saveAsync:obj] continueWithBlock:^id(BFTask *task) {
+  if (task.isCancelled) {
+    // the save was cancelled.
+  } else if (task.error) {
+    // the save failed.
+  } else {
+    // the object was saved successfully.
+    SaveResult *saveResult = task.result;
+  }
+  return nil;
+}];</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-java" data-lang="java">object.saveAsync().continueWith(new Continuation&lt;ParseObject, Void&gt;() {
+  public Void then(Task task) throws Exception {
+    if (task.isCancelled()) {
+      // the save was cancelled.
+    } else if (task.isFaulted()) {
+      // the save failed.
+      Exception error = task.getError();
+    } else {
+      // the object was saved successfully.
+      SaveResult saveResult = task.getResult();
+    }
+    return null;
+  }
+});</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>一个Task表示一个asynchronous操作。一般来说，一个Task来自于一个asynchronous function，并且让你可以继续处理Task的执行结果。通过Bolts来创建Task非常简单：</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-java" data-lang="java">public Task&lt;String&gt; succeedAsync() {
+  // Java Generics syntax can be confusing sometimes. :)
+  // This creates a TCS for a Task&lt;String&gt;.
+  Task&lt;String&gt;.TaskCompletionSource successful = Task.create();
+  successful.setResult("The good result.");
+  return successful.getTask();
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>创建完Task后，我们的Task有一个方法onSuccess来指定一个Continuation。当Task成功执行完，抛出异常，或被取消了，我们的Task会运行执行这个Continuation。Continuation 是一个接口，只有一个当task执行完后会被调用的then方法（这里还有一个onSuccessTask方法，这个方法会调用continueWithTask方法创建一个新的asynchronous task）。</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-java" data-lang="java">succeedAsync().onSuccess(new Continuation&lt;ParseObject, Void&gt;() {
+  public Void then(Task&lt;ParseObject&gt; task) throws Exception {
+    // the object was saved successfully.
+    return null;
+  }
+});</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_parse_sdk_android">Parse-SDK-Android</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>在对Bolts有个基本的了解后，我们来分析下Parse-SDK-Android。对于一个ParseObject来说，常见的操作就是fetchInBackground()，即：在后台线程中，从server获取这个ParseObject的数据。</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-java" data-lang="java">public final &lt;T extends ParseObject&gt; void fetchInBackground(GetCallback&lt;T&gt; callback) {
+    ParseTaskUtils.callbackOnMainThreadAsync(this.&lt;T&gt;fetchInBackground(), callback);
+}</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-java" data-lang="java">public final &lt;T extends ParseObject&gt; Task&lt;T&gt; fetchInBackground() {
+    return ParseUser.getCurrentSessionTokenAsync().onSuccessTask(new Continuation&lt;String, Task&lt;T&gt;&gt;() {
+      @Override
+      public Task&lt;T&gt; then(Task&lt;String&gt; task) throws Exception {
+        final String sessionToken = task.getResult();
+        return taskQueue.enqueue(new Continuation&lt;Void, Task&lt;T&gt;&gt;() {
+          @Override
+          public Task&lt;T&gt; then(Task&lt;Void&gt; toAwait) throws Exception {
+            return fetchAsync(sessionToken, toAwait);
+          }
+        });
+      }
+    });
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>一般我们会调用ParseObject的fetchInBackground(GetCallback&lt;T&gt; callback)方法，在这里创建一个Callback出来用以处理从Cloud接收到的数据。很多时候，我们可能会要在这个Callback里面更新UI，或者再去调用其它的网络请求。因此，这样会常常带来许多不必要的麻烦，以及潜在的Bug。后面我们会介绍如何处理这些callback hell或者切换线程的方法，请持续关注哦。</p>
+</div>
+<div class="paragraph">
+<p>这里ParseTaskUtils的方法callbackOnMainThreadAsync通过Task来“包装”Callback中获取到的请求结果，因而这样的Task可以继续链接后续的Task。</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-java" data-lang="java">static Task&lt;Void&gt; callbackOnMainThreadAsync(Task&lt;Void&gt; task, final ParseCallback1&lt;ParseException&gt; callback) {
+    return callbackOnMainThreadAsync(task, callback, false);
+}</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-java" data-lang="java">static &lt;T&gt; Task&lt;T&gt; callbackOnMainThreadAsync(Task&lt;T&gt; task, final ParseCallback2&lt;T, ParseException&gt; callback, final boolean reportCancellation) {
+    if (callback == null) {
+      return task;
+    }
+    final Task&lt;T&gt;.TaskCompletionSource tcs = Task.create();
+    task.continueWith(new Continuation&lt;T, Void&gt;() {
+      @Override
+      public Void then(final Task&lt;T&gt; task) throws Exception {
+        if (task.isCancelled() &amp;&amp; !reportCancellation) {
+          tcs.setCancelled();
+          return null;
+        }
+//回到ui thread来执行
+        ParseExecutors.main().execute(new Runnable() {
+          @Override
+          public void run() {
+            try {
+              Exception error = task.getError();
+              if (error != null &amp;&amp; !(error instanceof ParseException)) {
+                error = new ParseException(error);
+              }
+              callback.done(task.getResult(), (ParseException) error);
+            } finally {
+              if (task.isCancelled()) {
+                tcs.setCancelled();
+              } else if (task.isFaulted()) {
+                tcs.setError(task.getError());
+              } else {
+                tcs.setResult(task.getResult());
+              }
+            }
+          }
+        });
+        return null;
+      }
+    });
+    return tcs.getTask();
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>在这里挖一个坑，下一篇我们会介绍一个fetchInBackground方法的调用是如何涉及到一个网络请求的,请继续关注哦。</p>
+</div>
+<div class="paragraph">
+<p>如果你喜欢本文章，欢迎推荐到你的朋友圈。更多好文章请关注我们的微信。</p>
+</div>
+<div class="paragraph">
+<p><strong>WeChat ID: mtl-news</strong></p>
+</div>
+<div class="paragraph">
+<p><em>长按下图识别二维码，关注我们哦</em></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/wechat.jpg" alt="wechat.jpg" width="300px" height="300px">
+</div>
+</div>
+</div>
+</div>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="" style="background-image: url(https://avatars.githubusercontent.com/u/4750970?v=3)"><span class="hidden">Yucun's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="">Yucun</a></h4>
+
+                    <p>Read <a href="">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=MTL-News%7C%E8%A7%A3%E6%9E%90Parse%20SDK%3A%20Part%201&amp;url=https://mtl-news.github.io/2015/09/04/Analyze-Parse-SDK-Part-1.html"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://mtl-news.github.io/2015/09/04/Analyze-Parse-SDK-Part-1.html"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://mtl-news.github.io/2015/09/04/Analyze-Parse-SDK-Part-1.html"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+
+        <section class="post-comments">
+          <div id="disqus_thread"></div>
+          <script type="text/javascript">
+          var disqus_shortname = 'mtlnews'; // required: replace example with your forum shortname
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+          <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </section>
+
+
+    </article>
+
+</main>
+
+
+
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="https://mtl-news.github.io">mtl-news</a> &copy; 2015</section>
+        <section class="poweredby">Proudly published with <a href="http://hubpress.io">HubPress</a></section>
+    </footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();      
+      </script>
+
+    <script type="text/javascript" src="//mtl-news.github.io/themes/Casper/assets/js/jquery.fitvids.js?v=1.0.0"></script>
+    <script type="text/javascript" src="//mtl-news.github.io/themes/Casper/assets/js/index.js?v=1.0.0"></script>
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66083441-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+</body>
+</html>
