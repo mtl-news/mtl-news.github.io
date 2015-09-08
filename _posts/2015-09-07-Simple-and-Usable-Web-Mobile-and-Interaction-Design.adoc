@@ -30,7 +30,7 @@ image::http://www-fp.pearsonhighered.com/assets/hip/images/bigcovers/0321703545.
 	* 删除(Remove)
 	* 组织(Organize)
 	* 隐藏(Hide)
-	* 转移(Display)
+	* 转移(Displace)
 
 接下来的四章作者针对每个策略做出详细的解说：
 
@@ -46,7 +46,7 @@ image::http://www-fp.pearsonhighered.com/assets/hip/images/bigcovers/0321703545.
 
  隐藏一次性设计和选项。隐藏精确控制选项，但专家用户必须能够让这些选项之中保持可见。不可强迫或寄希望于主流用户使用自定义功能，不过可以给专家提供这个选项。巧妙地影藏，换句话说首先是彻底隐藏，其次是适时出现
 
-* *转移(Display)*
+* *转移(Displace)*
 
  把正确地功能放到正确地平台或者正确地系统组件中去。包括设备之间转移，移动与桌面转移，向用户转移或者创造开放式体验。另外，记住简单的体验需要信任。
 	
