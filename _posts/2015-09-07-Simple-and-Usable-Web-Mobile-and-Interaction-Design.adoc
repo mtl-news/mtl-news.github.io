@@ -1,5 +1,8 @@
 = MTL-News|Simple and Usable Web, Mobile, and Interaction Design
-
+:hp-alt-title: Simple and Usable Web, Mobile, and Interaction Design
+:published_at: 2015-09-07
+:hp-tags: UI/UX, Simplicity, Usable, Web, Mobile
+:author: Heng
 
 
 简约至上：交互式设计四策略
