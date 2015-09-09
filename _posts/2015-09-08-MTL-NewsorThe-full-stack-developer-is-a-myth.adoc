@@ -1,0 +1,14 @@
+= MTL-News|The full stack developer is a myth
+
+
+
+导读：
+现在web development如日中天，一个新的职位也越来越频繁出现在各种招聘页面中 - Full stack developer(全栈工程师)。
+
+作者给出的观点就是，这样的title无异于在招聘“Genius”或者“Person who can do everything in [insert desired field here]”。作者列出了所谓的full stack developer至少要对下列的技术了如指掌。
+
+image::https://cdn-images-1.medium.com/max/957/1*aapxdvOS2pegg0DAqoOrYw.png[]
+
+其中包括了18个层面的知识，每个层面又包括好几个具体的技术或者framework需要去了解。事实上，贴出这样职位的公司就是在说需要招聘一个“someone amazing”，这完全就是偷懒的做法。除非是特别幸运，否则凡是具有这样一些能力的人早就在其他公司享受着更高的待遇了。
+
+总结起来就是Full stack developer听起来像是虚构的，并不是因为不存在，而是这种称呼本身就毫无意义。如果非要给它定义的话，它更像是一系列技能的总称，是对产品各个概念及各种模块层面之间整合的一种高度认识。
