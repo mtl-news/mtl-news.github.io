@@ -1,7 +1,7 @@
 = MTL-News|Startups in 13 sentences
 :hp-alt-title: Startups in 13 sentences
 :published_at: 2015-09-23
-:hp-tags: startup, advice
+:hp-tags: startup, advice, Paul Graham
 :author: Heng
 
 
