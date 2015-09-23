@@ -5,7 +5,9 @@
 :author: Heng
 
 
-导读：Paul Buchheit曾说过关于对startups的一句忠告：It's better to make a few people really happy than to make a lot of people semi-happy。这句话也一直影响着硅谷教父Paul Graham，另外在本文中Paul Graham提出跟多的忠告，浓缩成13句话：
+导读：Paul Buchheit曾说过关于对startups的一句忠告：It's better to make a few people really happy than to make a lot of people semi-happy。这句话也一直影响着硅谷教父Paul Graham，另外在本文中Paul Graham提出更多的忠告，浓缩成13句话：
+
+image::http://chantelbotha.com/wine/wp-content/uploads/2013/05/startups.jpg[]
 
 1. Pick good cofounders. 
 Cofounder的选择决定了你的startup的成败。
