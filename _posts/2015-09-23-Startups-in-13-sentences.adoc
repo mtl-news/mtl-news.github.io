@@ -1,5 +1,8 @@
 = MTL-News|Startups in 13 sentences
-
+:hp-alt-title: Startups in 13 sentences
+:published_at: 2015-09-23
+:hp-tags: startup, advice
+:author: Heng
 
 
 导读：Paul Buchheit曾说过关于对startups的一句忠告：It's better to make a few people really happy than to make a lot of people semi-happy。这句话也一直影响着硅谷教父Paul Graham，另外在本文中Paul Graham提出跟多的忠告，浓缩成13句话：
@@ -45,3 +48,13 @@ Cofounder的选择决定了你的startup的成败。
 
 如果只能留下一句话，Paul给出的答案是第4条：Understand your users。企业的中心任务是创造财富，而你给用户生活带来的改观决定了你能创造财富的多少，而最困难的部分就是去理解用户，了解用户需要什么。
 如果你只有10个用户，但他们都热爱你的产品，这也会成为你继续下去的动力。
+
+原文请戳: http://paulgraham.com/13sentences.html
+
+如果你喜欢本文章，欢迎推荐到你的朋友圈。更多好文章请关注我们的微信。
+
+*WeChat ID: mtl-news*
+
+_长按下图识别二维码，关注我们哦_
+
+image::wechat.jpg[height="300px" width="300px"]
