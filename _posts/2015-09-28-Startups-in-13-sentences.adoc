@@ -1,0 +1,33 @@
+= MTL-News|蒙特利尔秋季求职Meetup
+:hp-alt-title: Startups in 13 sentences
+:published_at: 2015-09-28
+:hp-tags: meetup
+:author: Yucun
+
+Montreal Tech Meetup致力于为大家提供一个交流的平台，为富有创新力的创业者或企业家提供创业信息，为广大在校学生提供求职信息。同时，我们也推崇hacker氛围，为技术发烧友提供一个相互切磋学习的的机会。我们的成员中有各行业的攻城狮，起夜家，创业者，投资者和学生，因此我们的宗旨是为大家提供各种创业求职资源，促进创业者之间的互动合作，促进学生之间的相互交流学习。
+
+每年秋季都是各公司的主要招聘季，在各学校会举行Info Session，这为学生们找实习找工作提供了一个很好的机会。乘着现在这个找工季，我们特意邀请了分别来自Morgan Stanley, Facebook, Ericsson的工程师来分享他们的求职经历及心得，希望能给予现在找工作的同学一些帮助。
+
+=== 参与方式：
+请通过微信联系我们，由于场地限制，我们只有20个名额。我们的微信号是：mtl-news
+
+=== 时间：
+10月3号 7:00PM
+
+=== 地点：
+蒙城汇办公室
+Suite 910 2015 Drummond Montreal, H3G 1W7
+
+=== 活动流程：
+7:00 - 7:30	Flash Lecture
+7:30 - 8:00	FAQ and networking
+
+
+
+如果你喜欢本我们，欢迎推荐到你的朋友圈。更多好文章或者活动，请关注我们的微信。
+
+*WeChat ID: mtl-news*
+
+_长按下图识别二维码，关注我们哦_
+
+image::wechat.jpg[height="300px" width="300px"]
