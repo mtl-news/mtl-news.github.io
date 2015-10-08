@@ -4,7 +4,9 @@
 :hp-tags: career session
 :author: Yucun
 
-来自法国的Société Générale的Mr. Guillaume Bertinand和Mr. Stephane Roy将在Concordia进行一场general talk。现在会收full-time/internship的简历，举办者给我们说对法语没有要求，所以希望大家去尝试下！
+image::http://graphics8.nytimes.com/images/2010/10/28/business/dbpix-companies-societe-generale4/dbpix-companies-societe-generale4-tmagArticle.jpg[]
+
+来自法国的Société Générale的Mr. Guillaume Bertinand和Mr. Stephane Roy将在Concordia进行一场general talk。现在会收full-time/internship的简历，举办者给我们说对法语没有要求，所以希望大家去尝试下！Business和Computer Science都会招收，活动是由我们的SCS社团主办的。
 
 
 活动请点击： https://www.facebook.com/events/1497448967221631/
